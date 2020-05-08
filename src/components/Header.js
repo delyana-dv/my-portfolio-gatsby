@@ -8,7 +8,7 @@ const Header = props => (
     </div>
     <div className="content">
       <div className="inner">
-        <h1>Dimension</h1>
+        <h1>Didi Ivanova</h1>
         <p>
           A fully responsive site template designed by{' '}
           <a href="https://html5up.net">HTML5 UP</a> and released
@@ -35,16 +35,16 @@ const Header = props => (
               props.onOpenArticle('work')
             }}
           >
-            Work
+            Work & expertise
           </button>
         </li>
         <li>
           <button
             onClick={() => {
-              props.onOpenArticle('about')
+              props.onOpenArticle('other')
             }}
           >
-            About
+            Other projects
           </button>
         </li>
         <li>
